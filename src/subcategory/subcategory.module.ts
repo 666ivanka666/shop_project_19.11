@@ -7,5 +7,6 @@ import { CategoryModule } from 'src/category/category.module';
   imports: [CategoryModule],
   controllers: [SubcategoryController],
   providers: [SubcategoryService],
+  exports: [SubcategoryService],
 })
 export class SubcategoryModule {}

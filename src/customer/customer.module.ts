@@ -7,5 +7,6 @@ import { CityModule } from 'src/city/city.module';
   imports: [CityModule],
   controllers: [CustomerController],
   providers: [CustomerService],
+  exports: [CustomerService],
 })
 export class CustomerModule {}

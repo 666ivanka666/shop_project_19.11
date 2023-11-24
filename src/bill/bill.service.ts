@@ -1,7 +1,7 @@
 import { Injectable, NotAcceptableException } from '@nestjs/common';
 import { Bill } from './type';
 import { CustomerService } from 'src/customer/customer.service';
-import { CardTypeService } from 'src/cardtype/cardtype.service';
+import { CardTypeService } from 'src/car-type/card-type.service';
 import { v4 as uuidv4 } from 'uuid';
 
 @Injectable()

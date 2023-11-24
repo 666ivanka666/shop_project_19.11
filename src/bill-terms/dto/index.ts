@@ -1,6 +1,6 @@
 import { IsNotEmpty, IsString, IsUUID, IsNumber } from 'class-validator';
 
-export class BillTermDto {
+export class BillItemDto {
   @IsString()
   @IsNotEmpty()
   @IsUUID()

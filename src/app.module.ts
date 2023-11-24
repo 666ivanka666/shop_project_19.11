@@ -4,9 +4,9 @@ import { SubcategoryModule } from './subcategory/subcategory.module';
 import { ProductModule } from './product/product.module';
 import { CityModule } from './city/city.module';
 import { CustomerModule } from './customer/customer.module';
-import { CardTypeModule } from './card-type/card-type.module';
 import { BillModule } from './bill/bill.module';
-import { BillTermsModule } from './bill-terms/bill-terms.module';
+import { CardTypeModule } from './car-type/card-type.module';
+import { BillItemModule } from './bill-terms/bill-items.module';
 
 @Module({
   imports: [
@@ -15,9 +15,9 @@ import { BillTermsModule } from './bill-terms/bill-terms.module';
     ProductModule,
     CityModule,
     CustomerModule,
-    CarTypeModule,
+    CardTypeModule,
     BillModule,
-    BillTermsModule,
+    BillItemModule,
   ],
 })
 export class AppModule {}

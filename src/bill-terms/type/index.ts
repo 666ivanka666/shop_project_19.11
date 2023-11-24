@@ -1,4 +1,4 @@
-export class BillTerm {
+export class BillItem {
   constructor(
     public id: string,
     public billId: string,
